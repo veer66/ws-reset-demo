@@ -1,0 +1,14 @@
+[package]
+name = "ws-reset-demo"
+version = "0.0.1"
+authors = ["Vee Satayamas <vsatayamas@gmail.com>"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+ws = "0.8"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
